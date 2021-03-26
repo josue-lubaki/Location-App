@@ -25,4 +25,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Latitude"/>
 
+    <TextView
+        android:id="@+id/instant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instantané"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/Longitude"/>
+
+    <TextView
+        android:id="@+id/LatitudeInstant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instant"/>
+    <TextView
+        android:id="@+id/LongitudeInstant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LatitudeInstant"/>
+
+
 </RelativeLayout>
